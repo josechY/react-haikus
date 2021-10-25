@@ -6,19 +6,20 @@ header {
   background-color: var(--rosa-claro);
 }
 
-#ContenedorBuscadorHeader {
+#contenedorBuscadorHeader {
   display: flex;
-  height: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 50%;
   border-bottom: 1px solid white;
 }
+
 #IconoBuscador {
-  align-items: flex-start;
-  display: flex;
-  flex-grow: 1;
+  color: white;
 }
+
 #buscador {
-  /* Esta es la propiedad que hace posible 
-	ocupar todo el espacio posible*/
   flex-grow: 1;
   background-color: var(--rosa-claro);
   outline-style: none;
@@ -27,6 +28,7 @@ header {
   border: none;
   color: white;
 }
+
 #buscador::placeholder {
   color: var(--color-claro-buscador);
 }
