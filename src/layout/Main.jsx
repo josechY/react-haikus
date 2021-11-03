@@ -1,6 +1,7 @@
 import "./styles/Main.css";
 
 const Main = () => {
-  return <p> cuerpo principal </p>;
+  return <div>contenido del main</div>;
 };
+
 export default Main;

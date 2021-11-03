@@ -1,0 +1,22 @@
+.ImagenTarjeta{
+    width: 100%;
+    border-radius: 50%;
+
+  
+}
+.InfoTarjeta{
+    display: flex;
+    align-items: center;
+}
+
+.CuerpoTarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Tarjeta{
+    width: 100%;
+    
+}
